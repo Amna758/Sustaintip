@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "748023348350",
+    "project_id": "my-new-sustain-app",
+    "storage_bucket": "my-new-sustain-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748023348350:android:05f7f5e12382fe1e9cac2f",
+        "android_client_info": {
+          "package_name": "com.example.my_new_sustain_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNdx9a1QsP8R5G07bquU3BeWQkWNr_AqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

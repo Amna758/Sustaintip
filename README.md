@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 🌱 SustainTip – Daily Green Habits Generator
 SustainTip is an AI-powered mobile app that encourages users to adopt sustainable habits through personalized, actionable green tips delivered daily. Designed for simplicity, relevance, and impact, SustainTip empowers individuals to live more eco-consciously—one tip at a time.
 
@@ -58,3 +59,21 @@ Prompt Engineering: Carefully crafting prompts to produce localized and meaningf
 API Integration: Ensuring stable communication between Gemini and Firebase backend.
 User Engagement: Planned gamification features and progress tracking.
 Scalability: Database and architecture designed to scale as user base grows.
+=======
+# my_new_sustain_app
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+>>>>>>> b3dc146 (Initial commit)
