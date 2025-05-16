@@ -20,21 +20,30 @@ Flutter	Cross-platform mobile app development
 Firebase Firestore	Real-time data storage
 Firebase Auth	User authentication
 Firebase Cloud Functions	Scheduled tip generation and delivery
-Google Vertex AI (Gemini Model)	Personalized sustainability tip generation
-⚙️ System Architecture
+Google Vertex AI (Gemini Model)	Personalized sustainability tip generation.
+
+
+⚙️ System Architecture.
+
 The architecture of SustainTip is designed to provide a smooth and personalized user experience powered by AI and Firebase services:
 Splash & Onboarding
+
 Users are welcomed with a splash screen followed by an onboarding experience to understand the app's purpose.
 Users select sustainability interests during onboarding.
 Authentication
+
 Secure sign-in and account creation handled via Firebase Authentication.
 AI Chatbot
+
 Interactive chatbot interface powered by Gemini AI to engage users and provide dynamic sustainability tips.
 Tips Generation & Listing
+
 Personalized tips are generated daily using user preferences and stored in Firestore.
 Users can view and browse a list of all generated tips.
 Progress Tracking
+
 Users can view their sustainability journey and engagement through a dedicated progress section.
+
 User Profile
 Includes saved tips, interests, and settings, all stored securely and synced with Firestore.
 
