@@ -14,7 +14,7 @@ class ChatbotScreen extends StatefulWidget {
 class _ChatbotScreenState extends State<ChatbotScreen> {
   final TextEditingController _controller = TextEditingController();
 
-  List<String> messages = []; // ✅ Fixed: added messages list
+  List<String> messages = [];
 
   String _generatedTips = '';
   bool _loading = false;
