@@ -19,7 +19,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
   String _generatedTips = '';
   bool _loading = false;
 
-  final String _apiKey = 'AIzaSyDr2RKA_3zysW5CfYSY_BQLsGcEH4EklEM';
+  final String _apiKey = 'your_api_key_here';
 
   Future<void> generateGreenTips() async {
     setState(() {
@@ -59,7 +59,6 @@ Generate some green tips. Remember: response should only generate tips, nothing 
           ),
         ),
       );
-
     } catch (e) {
       setState(() {
         _generatedTips = 'Error: $e';
@@ -86,8 +85,6 @@ Generate some green tips. Remember: response should only generate tips, nothing 
       setState(() {
         messages.add("Gemini: Generating your green tips...");
       });
-
-
 
       // ✅ Call Gemini API
       generateGreenTips();
